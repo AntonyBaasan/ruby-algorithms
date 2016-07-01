@@ -1,6 +1,8 @@
 ## About
 
-This 
+![Codeship Build](https://codeship.com/projects/c3d003f0-217e-0134-77ad-1eef50e7a565/status?branch=develop)
+
+This repository contains Ruby implementations of different famous Computer Science algorithms.
 
 ## Install
 
