@@ -1,3 +1,6 @@
 .idea
 
 debug_script.rb
+
+/doc
+.yardoc

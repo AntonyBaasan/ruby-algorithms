@@ -1,9 +1,11 @@
 module Sort
-  # Quick sort implementation with
-  # Lomuto partition scheme
+  # Quick sort implementation with Lomuto partition scheme.
   # Complexity: best N*logN, worst N^2
   module QuickSort
-    # sorts the array
+    # Sorts the array
+    #
+    # @param [Array] contents the contents to sort
+    # @return [Array] the contents sorted
     def self.sort (arr)
       quick_sort_lomuta arr, 0, arr.count-1
       arr
@@ -11,6 +13,12 @@ module Sort
 
     private
 
+    # Quick sort algorithm with Lomuto partition scheme.
+    #
+    # @param [Array] arr the contents to sort
+    # @param [Array] low index of low(start) number
+    # @param [Array] high index of high(end) number
+    # @return [Array] the contents sorted
     def self.quick_sort_lomuta (arr, low, high)
       if (low < high)
         p = partition_lomuta(arr, low, high)

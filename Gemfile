@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# yard documenation generator tool
+# yard documenation tool
 gem 'yard'
