@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../src/quick_sort'
+require_relative '../../src/sort/quick_sort'
 
 class TestQuickSort < MiniTest::Test
   def setup
